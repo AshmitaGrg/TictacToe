@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #03012C;
+    color: #ffffff;
+    text-align: center;
+}
+#container{
+    height: 70vh;
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+#box{
+   height: 65vh;
+   width: 65vh;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap: 0.2em;
+}
+.tic{
+    height: 21vh;
+    width: 20vh;
+    border-radius: 0.2em;
+    border: none;
+    font-size: 5em;
+    background-color: #176087;
+}
+.message{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    background-color: rgba(0,0,0,.9);
+    color: #ffffff;
+}
+.message button{
+    padding: 0.5em;
+    font-size: 0.3em;
+    cursor: pointer;
+}
+.show{
+    display: none;
+}
+
